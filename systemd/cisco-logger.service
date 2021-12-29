@@ -1,0 +1,11 @@
+[Unit]
+Description=cisco-logger
+Documentation=https://github.com/manio/cisco-logger
+After=local-fs.target network.target
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/cisco-logger
+
+[Install]
+WantedBy=multi-user.target
