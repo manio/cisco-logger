@@ -16,7 +16,7 @@ This unfortunatelly besides port number is not telling me __what__ exactly is co
 Even when the description of the port is properly set in the cisco itself, it is not directly exposing this information in the log.<br>
 I decided to create a simple config file where I am assigning port numbers to user-friendly descriptions with information what is connected to specified ports.<br>
 As the result the tool is able to log the above information as you can see below:<br>
-![Sample output](https://github.com/manio/cisco-logger/blob/master/images/cisco-logger.png)
+![Sample output](images/cisco-logger.png)
 
 ## Limitations
 Because I have only one cisco switch in my network I don't need to inform about its IP address with every message, so I just strip this out. The same applies to facility which seems to be always set to `LOG_LOCAL7`.<br>
