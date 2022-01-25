@@ -1,11 +1,19 @@
 [package]
-name = "cisco-logger"
-version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+name = 'cisco-logger'
+authors = ['Mariusz Białończyk']
+version = '0.1.0'
+edition = '2021'
+license = 'GPL-2.0'
+description = 'Utility for parsing and coloring cisco RFC 3164 syslog messages'
+documentation = 'https://github.com/manio/cisco-logger'
+readme = 'README.md'
+include = ['/README.md', '/LICENSE', '/Cargo.toml', '/Cargo.lock', '/src/*.rs', 'systemd/*.service', 'images/*']
+keywords = ['cisco', 'logger', 'syslog', 'paris', 'rfc3164']
+categories = ['command-line-utilities']
+homepage = 'https://github.com/manio/cisco-logger'
+repository = 'https://github.com/manio/cisco-logger'
 
 [dependencies]
-syslog_loose = "0.16.0"
-paris = "1.5.8"
-rust-ini = "0.10.3"
+syslog_loose = '0.16.0'
+paris = '1.5.8'
+rust-ini = '0.10.3'
