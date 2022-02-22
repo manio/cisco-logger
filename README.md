@@ -1,5 +1,8 @@
 # 📥 cisco-logger
 
+[![Crates.io](https://img.shields.io/crates/v/cisco-logger.svg)](https://crates.io/crates/cisco-logger)
+[![Crates.io](https://img.shields.io/crates/l/cisco-logger.svg)](https://crates.io/crates/cisco-logger)
+
 ## Genesis
 My cisco switch can be configured to send a syslog messages to a syslog server. This is a nice feature because a server can collect this information in its own log. Commonly it is a regular [syslogd](https://en.wikipedia.org/wiki/Syslog)/[rsyslogd](https://en.wikipedia.org/wiki/Rsyslog) or some compatible server, but at my linux box I am using a systemd journal for logging instead.
 
